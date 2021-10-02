@@ -1,9 +1,8 @@
-#code1
+# code1
 
 
 
-**↓↓↓**
-
+  ---
 function readData(idx) {
   for (let i = 0; i < 100; i++) {
     idx++;
@@ -16,20 +15,18 @@ function readData(idx) {
 
 readData(0);
 console.log("after");
+ ---
 
+# 答案
 
-**↑↑↑**
-
-#答案
-
-**↓↓↓**
+ 
 1
 2
 3
 ~
 500
 after
-**↑↑↑**
+ 
 
 after會500後印出。
 原因;readData(0) 後for loop會執行五次，idx會被加到500,才去執行console.log("after")
@@ -37,12 +34,11 @@ after會500後印出。
 
 
 
-#code2
+# code2
 
 
 
-**↓↓↓**
-
+ ---
 function readData(idx) {
   for (let i = 0; i < 100; i++) {
     idx++;
@@ -57,13 +53,11 @@ function readData(idx) {
 
 readData(0);
 console.log("after");
+ ---
+
+# 答案
 
 
-**↑↑↑**
-
-#答案
-
-**↓↓↓**
 
 1
 ~
@@ -73,7 +67,6 @@ after
 ~
 500
 
-**↑↑↑**
 
  after會在100後印出。
  原因;不知道。
